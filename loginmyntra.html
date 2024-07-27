@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="loginmyntra.css">
+</head>
+<body>
+    <div class="outer">
+        <img src="Screenshot 2024-03-19 172032.png">
+
+        <form>
+            <h1 style="text-align: center;">Login</h1>
+             <div class="user">
+            <spand id="normal" >Username</spand>
+             <input type="text" placeholder="Enter your username" id="username" required></div>
+             
+           <div class="pass">
+              <span id="hidden">Password</span>
+             <input type ="password" placeholder="Enter your password"id="password" required></div><br>
+           <span id="small1" > By continuing , I agree to the </span><span id="big1">Terms of Use & Privacy Policy </span>
+             <div class="continue" style="cursor: pointer;">
+                      Continue
+             </div>
+            <span id="small1"> Having trouble logging in?</span><span id="big1">Get help</span>
+            
+        </form>
+    </div>
+   <script>
+           let user=document.querySelector("#username");
+           let pass=document.querySelector("#password");
+
+        let button =document.querySelector(".continue");
+         button.addEventListener("click",()=>{
+            if(user.value!=0 && pass.value!=0){
+            window.location.href="myntra.htm";
+         } 
+         else{
+             alert("Please fill in the field");
+         }
+        })
+   </script>
+</body>
+</html>

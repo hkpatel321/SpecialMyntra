@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height:100px;
+    width:300px;
+}
+.outer{
+
+    height: 440px;
+    width: 300px;
+    background-color: white;
+    border:1px solid gray;
+}
+
+.user{
+    background-color: white;
+    height: 40px;
+    padding-left: 5px;
+}
+.user input{
+    line-height: 39px;
+    width: 70%;
+    float: right;
+    
+    /* margin-left: 5px; */
+
+}
+.pass{
+    height: 40px;
+    margin-top: 30px;
+    padding-left: 5px;
+
+}
+.pass input{
+     float: right;
+    line-height: 40px;
+    /* margin:10px 0px 0px 3px; */
+    width: 70%;
+}
+.continue{
+    background-color: #ff3f6c;
+    height: 30px;
+    width: 80%;
+    margin: 10px;
+    color:white;
+    padding-top: 3px;
+    text-align: center;
+    letter-spacing: 2px;
+    transform: translateX(20px);
+}
+#hidden{
+    padding-top: 30px;
+ 
+}
+#small1{
+    font-size:smaller;
+    font-weight: 100;
+}
+#big1{
+    color:#ff3f6c;
+    font-weight: 300;
+}
